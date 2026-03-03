@@ -1,4 +1,4 @@
-name: book-capture
+name: book-db
 channels:
   - conda-forge
   - defaults

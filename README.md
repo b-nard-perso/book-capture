@@ -65,7 +65,7 @@ cd book-capture
 
 # Créer et activer l'environnement conda
 conda env create -f environment.yml
-conda activate book-capture
+conda activate book-db
 
 # Installer en mode développement
 pip install -e .
