@@ -1,0 +1,35 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environnements virtuels
+.env
+.venv
+env/
+venv/
+
+# Outils de test et couverture
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# VS Code
+.vscode/
+
+# Sorties générées par l'application
+*.xlsx
+
+# macOS
+.DS_Store
+
+# Fichiers temporaires
+*.tmp
+*.bak
