@@ -1,0 +1,10 @@
+name: book-capture
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - tesseract          # moteur OCR système (obligatoire pour pytesseract)
+  - pip:
+      - book-capture[dev]
